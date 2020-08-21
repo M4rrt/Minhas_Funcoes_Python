@@ -11,7 +11,7 @@
 
 ## Features
 
-[**math**](https://docs.python.org/3/library/math.html?highlight=math#module-math)   - Um módulo em Python com acesso a funções pré prontas de matemática da linguagem C
-[**time**](https://docs.python.org/3/library/time.html?highlight=time#module-time)   - Um módulo que contem varias funções relacionada ao tempo
-[**turtle**](https://docs.python.org/3/library/turtle.html?highlight=turtle#module-turtle) - uma Biblioteca Grafica do python para introdução de crianças a programação
+[**math**](https://docs.python.org/3/library/math.html?highlight=math#module-math)   - Um módulo em Python com acesso a funções pré prontas de matemática da linguagem C.
+[**time**](https://docs.python.org/3/library/time.html?highlight=time#module-time)   - Um módulo que contem varias funções relacionada ao tempo.
+[**turtle**](https://docs.python.org/3/library/turtle.html?highlight=turtle#module-turtle) - uma Biblioteca Grafica do python para introdução de crianças a programação.
 

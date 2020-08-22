@@ -23,7 +23,7 @@ def area_r(radius):
 # calculate circle area by the distance between point 1 (circle centre)
 # and point 2 (circle perimeter)
 def circle_area_r(x1,y1,x2,y2):
-    return area_r(dist(x1,y1,x2,y2))
+    return area_r(dist_r(x1,y1,x2,y2))
 
 
 # is x devisible by y
@@ -106,4 +106,11 @@ def gcd_r(a, b):
     else:
          x = gcd_condicion_r(a, a, b)
     return x
-    
+
+
+# just a countdown...
+def countdown(n):
+    while n > 0:
+        print(n)
+        n -= 1
+    print('blastoff!')

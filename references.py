@@ -115,8 +115,9 @@ def countdown(n):
         n -= 1
     print('blastoff!')
 
+
 # I don't see the really utility by this function but it is in the book...
-def while_true():
+def while_not_done_r():
     while True:
         line = input('> ')
         if line == 'done':

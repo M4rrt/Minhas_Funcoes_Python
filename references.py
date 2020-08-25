@@ -124,3 +124,15 @@ def while_not_done_r():
            break
         print(line)
     print('Done !')
+
+
+# Newton Square root calculation, calculate the square root of a
+def newton_square_r(a):
+    x = 1
+    while True:
+        y = ( x + a / x ) / 2
+        if y == x:
+            break
+        x = y
+    return x
+

@@ -136,3 +136,47 @@ def newton_square_r(a):
         x = y
     return x
 
+# uses eval to let the user make your own expression 
+def eval_loop_r():
+    while True:
+        x = input('>')
+        if x == 'done':
+            print('shutting down\ndone...\n..\n.')
+            break
+        elif x != 'done':
+            print(eval(x))
+
+            
+# make a new string.
+# string : is the original string
+# new    : new word in the string
+# n      : were the 'new' will be put in the string
+def restring_r(string, new, n):
+    string = new + string[n:]
+    return string
+
+# finding a letter in a word
+# word   : Original Word
+# letter : letter then will be finded
+# the function will return an array with the location(s) of the letter in the 'word' or will return -1 if don't find the letter
+def find_r(word, letter):
+    index = 0
+    array = []
+    while index < len(word):
+        if word[index] == letter:
+            array.append(index)
+        index += 1
+    if array == []:    
+        return -1
+    else:
+        return array
+
+# count the how many times a letter is in an word
+# word   : string - the word to be checked  
+# letter : char   - the letter to be finded
+def count_letter_r(word, letter):
+    count = 0
+    for i in range(len(word)):
+        if word[i] == letter:
+            count+= 1
+    return count

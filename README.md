@@ -1,4 +1,4 @@
-# Minhas Funcoes Python
+# Minhas Funções Python
  
  Repositorio com as funções que criei fazendo os exercícios do livro Pense em Python - Allen B. Downey.
  

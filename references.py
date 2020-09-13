@@ -180,3 +180,59 @@ def count_letter_r(word, letter):
         if word[i] == letter:
             count+= 1
     return count
+
+# in both  is a function that look at two Strings and see if
+# they have same letter inside of then
+def in_both_r(word1, word2):
+    let = []
+    for letter in word1:
+        if letter in word2:
+            let.append(letter)
+    return let
+
+# checks if the 'word' is palindrome
+# word : String - the word to be checked  
+def is_palindrome_r(word):
+    return word == word[::-1]
+
+
+# checks the the words and see if they have equal letter
+# word1 : String - first word
+# word2 : String - second word
+def in_both_r(word1, word2):  
+    let = ''
+    for letter in word1:
+        if letter in word2:
+            let += letter+' '
+    return let
+
+
+# encode a stings with ceasar cipher using a key to rotation between -26 and 26
+# word   : String - the word to be enceded
+# string : Int    - number between -26 and 26
+def caesar_cipher_r(word, n):
+    def verification(i,n,vi,vf):
+        letter = ''
+        if (ord(i)+n) > vf:
+                x = (ord(i) + n) - (vf+1)
+                letter += chr(vi + x)
+        elif(ord(i) + n) < vi :
+                x = vi - (ord(i) + n)
+                letter += chr(vf+1 - x)
+        else:
+            letter += chr(ord(i) + n)
+        return letter 
+    
+    letter = ''
+
+    for i in word:
+        if i.islower():
+            letter += verification(i,n,97,122)
+
+        elif i.isupper():
+            letter += verification(i,n,65,90)
+
+        elif i == ' ':
+            letter+= ' '
+
+    return letter

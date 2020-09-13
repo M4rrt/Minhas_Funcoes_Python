@@ -1,4 +1,4 @@
-# Minhas_Funcoes_Python
+# Minhas Funcoes Python
  
  Repositorio com as funções que criei fazendo os exercícios do livro Pense em Python - Allen B. Downey.
  
@@ -18,4 +18,4 @@
 [**turtle**](https://docs.python.org/3/library/turtle.html?highlight=turtle#module-turtle) - uma Biblioteca Grafica do python para introdução de crianças a programação.
 
 ### Status
-#### Em andamento... cap(09/19)
+#### Em andamento... Cap. (09/19)

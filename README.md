@@ -18,4 +18,4 @@
 [**turtle**](https://docs.python.org/3/library/turtle.html?highlight=turtle#module-turtle) - uma Biblioteca Grafica do python para introdução de crianças a programação.
 
 ### Status
-#### Em andamento...
+#### Em andamento... cap(09/19)

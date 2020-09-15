@@ -236,3 +236,14 @@ def caesar_cipher_r(word, n):
             letter+= ' '
 
     return letter
+
+# this function uses a file with one word per line and return only the words with n letter in an array
+# fin : file.txt - use "fin = open(file.tex)"
+# n   : int
+def words_len_checker(fin,n):
+    wordsn = []
+    for i in fin:
+        word = i.strip()
+        if len(word) >= n:
+            wordsn.append(word)
+    return wordsn  

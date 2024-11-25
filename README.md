@@ -2,11 +2,11 @@
  
  Repositorio com as funções que criei fazendo os exercícios do livro Pense em Python - Allen B. Downey.
  
- Link para comprar o [Livro na Amazom](https://www.amazon.com.br/gp/product/B07QL2LKBG/ref=dbs_a_def_rwt_bibl_vppi_i0)
+ Link para comprar o [Livro na Amazom]([https://www.amazon.com.br/gp/product/B07QL2LKBG/ref=dbs_a_def_rwt_bibl_vppi_i0](https://a.co/d/bIctJU8))
  
  para usa-las baixe o arquivo e coloque na mesma pasta do seu projeto/código e as importe para o seu código com : 
 
-### " from references import * "
+### from references import *
 
 
 ## Features
